@@ -10,11 +10,11 @@ mkdir TEXT
 move *.txt TEXT\ >dummy
 del dummy
 
-if　not exist *.nota goto a2
+ifﾂ　not exist *.nota goto a2
 ren *.nota *.txt
 :a2
 
 echo Finish
-echo （PRESS ENTER）
+echo ﾂ（PRESS ENTERﾂ）
 pause
 exit
